@@ -1,0 +1,66 @@
+            DATA DICTIONAIRY - CODEBOOK
+
+Dimensions: 180 x 81
+
+subject_id
+    Id of the training and/or test subject
+        1..30
+activity_label
+    The activity of the training or test measurement
+        WALKING
+        WALKING_UPSTAIRS
+        WALKING_DOWNSTAIRS
+        SITTING
+        STANDING
+        LAYING
+tBodyAcc_mean[X|Y|Z]_mean
+    Mean body acceleration mean values for each subject and activity in X,Y, or Z directions
+tBodyAcc_std[X|Y|Z]_mean
+    Mean body acceleration standard deviation for each subject and activity in X,Y, or Z directions
+
+tGravityAcc_mean[X|Y|Z]_mean
+    Mean gravity acceleration mean values for each subject and activity in X,Y, or Z directions
+tGravityAcc_std[X|Y|Z]_mean
+    Mean gravity acceleration standard deviation for each subject and activity in X,Y, or Z directions
+
+tBodyAccJerk_mean[X|Y|Z]_mean
+    Mean body acceleration mean jerk values for each subject and activity in X,Y, or Z directions
+tBodyAccJerk_std[X|Y|Z]_mean
+    Mean body acceleration jerk standard deviation for each subject and activity in X,Y, or Z directions
+
+tBodyGyro_mean[X|Y|Z]_mean
+    Mean body gyroscope mean values for each subject and activity in X,Y, or Z directions
+tBodyGyroJerk_std[X|Y|Z]_mean
+    Mean body gyroscope standard deviation for each subject and activity in X,Y, or Z directions
+
+tBodyGyroJerk_mean[X|Y|Z]_mean
+    Mean body gyroscope mean jerk values for each subject and activity in X,Y, or Z directions
+tBodyGyroJerk_std[X|Y|Z]_mean
+    Mean body gyroscope jerk standard deviation for each subject and activity in X,Y, or Z directions
+
+tBodyAccMag_mean_mean
+    Mean body acceleration mean magnitude values for each subject and activity
+tBodyAccMag_std_mean
+    Mean body acceleration magnitude standard deviation for each subject and activity
+
+tBodyAccMagJerk_mean_mean
+    Mean body acceleration mean magnitude jerk values for each subject and activity
+tBodyAccJerkMag_std_mean
+    Mean body acceleration magnitude jerk standard deviation for each subject and activity
+
+tGravityAccMag_mean_mean
+    Mean gravity acceleration mean magnitude values for each subject and activity
+tGravityAccMag_std_mean
+    Mean gravity acceleration magnitude standard deviation for each subject and activity
+
+tBodyGyroMag_mean_mean
+    Mean body gyroscope mean magnitude values for each subject and activity
+tBodyGyroMag_std_mean
+    Mean body gyroscope magnitude standard deviation for each subject and activity
+
+tBodyGyroMagJerk_mean_mean
+    Mean body gyroscope mean magnitude jerk values for each subject and activity
+tBodyGyroJerkMag_std_mean
+    Mean body gyroscope magnitude jerk standard deviation for each subject and activity
+
+A second set of variables that have been fourier transformed (FFT) contain the mean values of the repsective frequency domain values relative for each subject and activity. The first letter is an "f" to indicate this.
